@@ -1,0 +1,178 @@
+*{
+	box-sizing: border-box;
+	}
+
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family: "Trebuchet MS", Verdana, Helvetica, Arial;
+	font-size: 12px;
+}
+	.container-left{
+		font-family: "Times New Roman", Times, serif;
+		font-size: 16px;
+		color: #ffffff;
+		background-color:#21636b;
+		float:left;
+		padding:15px;
+		width:20%;
+		margin:0 !important;
+		border-left: 5px inset #21636b;
+		border-right:3px outset #21636b;
+				}
+		.sidebar{
+				height:100%;
+				padding: 5px;
+			}
+		#box{
+			position:relative;
+			float:left;
+			width:100%;
+			padding-left:35px;
+			}
+		#box img{
+			padding-left: 0px 25px 0px 25px;
+			width: 150px;
+			}
+
+		#link1 a{
+			font-weight:bold;
+			color:#fff;
+			text-decoration:underline;
+			line-height:50%;
+			padding:3px 30px;
+			margin:0px;
+			position:relative;
+			float:left;
+			clear: both;
+		}
+		#link1 a:hover{text-decoration:none; color:#ffa64d;}
+		#search{
+			padding: 20px;
+			position:relative;
+			float:left;
+			clear:both;
+		}
+		#search h1 a{color:#5bcefb; font-weight:normal; font-size: 1.5em;padding-left:10px;}
+		#search  label{
+			color:#fff;
+			padding:0px 17px 0px 17px;
+			font-size:18px;
+		 }
+		 #mysearch  {
+			box-sizing: border-box;
+			margin-left:7px;
+			width:80%;
+			height:auto;
+			-webkit-box-shadow: 2px 2px 2px 0 #000 inset;
+			box-shadow: 2px 2px 2px 0 #000 inset;
+			}
+			
+		.row{padding:2px 25px 2px;}
+		.row input[type=submit] {
+		  background: #5e5e5e;
+		  background-image: -webkit-linear-gradient(top, #5e5e5e, #2a2e2e);
+		  background-image: -moz-linear-gradient(top, #5e5e5e, #2a2e2e);
+		  background-image: -ms-linear-gradient(top, #5e5e5e, #2a2e2e);
+		  background-image: -o-linear-gradient(top, #5e5e5e, #2a2e2e);
+		  background-image: linear-gradient(to bottom, #5e5e5e, #2a2e2e);
+		  -webkit-border-radius: 5;
+		  -moz-border-radius: 5;
+		  border-radius: 5px;
+		  font-family: Arial;
+		  color: #ffffff;
+		  font-size: 12px;
+		  padding: 3px 35px 3px 35px;
+		  border-bottom: solid #666667 1px;
+		  border-right: solid #666667 1px;
+		  text-decoration: none;
+		  text-transform:upper-case;
+		  cursor: pointer;
+		}
+
+		.row input[type=submit]:hover {
+		  background: #000000;
+		  background-image: -webkit-linear-gradient(top, #000000, #08545e);
+		  background-image: -moz-linear-gradient(top, #000000, #08545e);
+		  background-image: -ms-linear-gradient(top, #000000, #08545e);
+		  background-image: -o-linear-gradient(top, #000000, #08545e);
+		  background-image: linear-gradient(to bottom, #000000, #08545e);
+		  text-decoration: none;
+		}
+		 #menu {
+			position:relative;
+			float:left;
+			clear:both;
+			padding-bottom:30px;
+			}
+		#menu a {color:#fff;}
+		/*#menu a:hover{font-size: 120%;}*/
+
+		#menu ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			color:#ffd60c;
+		}
+		#menu li a {
+			display: block;
+			padding-left:7px;
+			font-size: 14px;
+		}
+
+		#menu li a:link{color:#fff;}
+		#menu li a:hover{color:#f8f792;}
+
+	.container-right{
+		background-color:#ffffff;
+		float:left;
+		width:55%;
+		padding: 30px 50px;
+		}
+		.title{
+			font-family: "Helvetica", Helvetica, sans-serif;
+			line-height:120%;
+			font-size: 2.8em;
+			font-style:italic;
+			color: #446d6d;
+			padding-left:1em;
+			padding-top:12px;
+		} 
+		.main-content{display:block; position: relative; top:8em;}
+		.subtitle1{ 
+					font-family: "Sans Bold", sans-serif;
+					line-height:50%;
+					letter-spacing:-5px;
+					font-size: 7em;
+					font-weight:900;
+					color: #c0c8cb;
+					padding-left:12px;
+					font-style:italic;
+					text-decoration: underline;
+					position:absolute;
+					display:inline-block;
+					z-index:1;		
+		}
+		.subtitle2{position:absolute; z-index:2;  
+					display:inline-block; width:40%;
+					font-family: "Times New Roman", sans-serif;
+					line-height:58%;
+					font-size: 1.7em;
+					font-style:italic;
+					color: #487a79;
+					font-weight:500;
+					text-align: right;
+					padding-right:2.4em;
+					padding-top:3.1em;
+		}
+	.container-right p, ul{
+			font-family: "Helvetica", Helvetica, sans-serif;
+			line-height:120%;
+			font-size: 16px;
+			color: #000;
+			text-align:justify;
+			text-wrap:normal;
+			padding-right:30px;
+	}
+	.container-right ul{list-style-type: circle;}
